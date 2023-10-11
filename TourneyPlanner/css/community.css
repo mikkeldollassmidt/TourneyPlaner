@@ -1,0 +1,135 @@
+/* Added fonts */
+@font-face {
+    font-family: Proxima;
+    src: url('Proxima.otf');
+}
+
+
+/* Set background color */
+body {
+    font-family: Proxima;
+    background: #22232b;
+    background-size: cover;
+}
+
+header {
+    width: 100px;
+    height: 100px;
+    align
+    background: #ffffff; 
+}   
+
+.top-middle-logo {
+  position: absolute;
+  top: 30px;
+  right: 950px;
+  height: 80px;
+  width: 80px;
+  filter: drop-shadow(0px 0px 90px #ffffff);
+
+}
+
+.buttontext{
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Proxima;
+  filter: drop-shadow(0px 0px 80px #ffffff);
+  padding: 2px;
+}
+
+.buttontext:hover {
+  text-shadow: 0px 0px 40px #ffffff;
+}
+
+.buttontext2{
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Proxima;
+  transform: skewX(-30deg);
+  position: absolute;
+  top: -8px;
+  right: 70px;
+}
+
+.buttontext3{
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Proxima;
+  transform: skewX(30deg);
+  position: absolute;
+  top: -8px;
+  right: 40px;
+}
+
+.button1 {
+  width: 150px;
+  height: 20px;
+  position: absolute;
+  left: 400px;
+  top: 40px;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+.button2 {
+  width: 200px;
+  height: 25px;
+  position: absolute;
+  left: 620px;
+  top: 50px;
+  background-image: linear-gradient(135deg, #c61a62 0%, #c61a62 100%);
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  border: none;
+  transform: skewX(30deg);
+  box-shadow: 0 0px 20px 5px rgba(255, 0, 106, 0.5);
+}
+
+.button2:hover {
+  box-shadow: 0 0px 60px 5px rgba(255, 41, 141, 0.5);
+}
+
+.button3{
+  width: 200px;
+  height: 25px;
+  position: absolute;
+  right: 680px;
+  top: 50px;
+  background-image: linear-gradient(135deg, #c61a62 0%, #c61a62 100%);
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  border: none;
+  transform: skewX(-30deg);
+  box-shadow: 0 0px 20px 5px rgba(255, 0, 106, 0.5);
+
+}
+
+.button3:hover{
+  box-shadow: 0 0px 60px 5px rgba(255, 41, 141, 0.5);
+}
+
+.button4{
+  width: 150px;
+  height: 40px;
+  position: absolute;
+  left: 1300px;
+  top: 40px;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+.title {
+  position: absolute;
+  font-size: 50px;
+  top: 200px;
+  right: 700px;
+  color: #ffff;
+}
